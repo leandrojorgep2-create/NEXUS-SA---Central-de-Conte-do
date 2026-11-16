@@ -1,0 +1,8 @@
+{
+  "name": "Nexus S.A. — Central de Conteúdo",
+  "description": "Central de Conteúdo bíblico-estratégico: criação de roteiros, storyboard com IA e SEO.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

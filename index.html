@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      window.addEventListener('error', function(e) {
+        if (e.message && e.message.includes('Cannot set property fetch of #<Window>')) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+        }
+      }, true);
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus S.A. — Central de Conteúdo</title>
+    <meta name="description" content="Central de Conteúdo bíblico-estratégico: criação de roteiros, storyboard com IA e SEO." />
+    <meta property="og:title" content="Nexus S.A. — Central de Conteúdo" />
+    <meta property="og:description" content="Central de Conteúdo bíblico-estratégico: criação de roteiros, storyboard com IA e SEO." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
